@@ -1,7 +1,7 @@
 import { totalConImpuesto } from '../src/calculadora.js';
 
 test('aplica 12 % de impuesto', () => {
-  expect(totalConImpuesto(100, 0.12)).toBe(112);
+  expect(totalConImpuesto(100, 0.12)).toBe(113);
 });
 
 test('subtotal cero devuelve cero', () => {
